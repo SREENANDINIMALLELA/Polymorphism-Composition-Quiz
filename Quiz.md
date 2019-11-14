@@ -21,23 +21,12 @@ Ans :   when cat and dog classes extends animal class and if we call the  makeSo
 # Composition
 
 6. What do we mean by 'composition' in reference to object-oriented programming?
-Ans: has a relationship
+Ans : has a relationship , class that references one or more objects of other classes in instance variables.
 7. When would you use composition? Provide a simple example in Java.
-car HAS-A engine , car Has-A tyres, Car Has-A name
+Ans: car HAS-A engine , car Has-A tyres, Car Has-A name
 
 8. What is/are the advantage(s) of using composition?
+Ans :Composition allows a class to use behaviour from a group of other classes, and makes it possible for that behaviour to change at runtime.
 
 9. When an object is destroyed, what happens to all the objects it is composed of?
 Ans : they also get destroyed
-
-What do we mean by 'composition' in reference to object-oriented programming?
-It describes a class that references one or more objects of other classes in instance variables.
-
-When would you use composition? Provide a simple example in Java.
-Assemble a computer instance from different part instances.
-
-What is/are the advantage(s) of using composition?
-Reuse existing code
-
-When an object is destroyed, what happens to all the objects it is composed of?
-They get destroyed as well.
